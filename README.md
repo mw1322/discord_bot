@@ -55,4 +55,26 @@ Welcome to the URL Shortener Application! This project provides an industry-stan
     npm start
     ```
 
-5. **Set
+5. **Set Up Discord Bot:**
+
+   - Invite the bot to your Discord server using the OAuth2 URL with the appropriate permissions.
+   - Ensure the bot has permissions to send messages in the desired channel.
+
+## Usage
+
+- **Web Interface:** Navigate to `http://localhost:5000` and enter the long URL to generate a short URL.
+- **Discord Commands:**
+  - **Create Short URL:** `!shorten <long_url>`
+  - The bot will reply with the shortened URL.
+
+## Contributing
+
+We welcome contributions! Please fork the repository and create a pull request for any feature you would like to add or improve.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Feel free to explore the application and contribute to make it better. Happy shortening!
